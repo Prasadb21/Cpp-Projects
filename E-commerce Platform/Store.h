@@ -12,11 +12,12 @@
 class Store
 {
     private:
-        std::vector<Product> products; // List of products in the store
-        std::vector<User> users;  // List of registered users
         std::vector<Order> orders;  // List Of Orders
 
     public:
+        std::vector<Product> products; // List of products in the store
+        std::vector<User> users;  // List of registered users
+        
         // Add a product to the store
         void addProduct(const Product& product);
 
